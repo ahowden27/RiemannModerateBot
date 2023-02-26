@@ -1,0 +1,12 @@
+# fly.toml file generated for riemann-discord-bot on 2023-02-25T11:53:07-05:00
+
+app = "riemann-discord-bot"
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[experimental]
+auto_rollback = true
+
+[deploy]
+strategy = "rolling"
